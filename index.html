@@ -11,7 +11,15 @@
 
 <body>
     <img src="img/wearevanguard.jpg" alt="Vanguard High School logo." width="200" height="200">
-    <h1><span style="color: #a89357">welcome to the</span> <span style="color: #006">vanguard webring!</span></h1>
+    <button onclick="switchColors()">Switch theme</button>
+
+    <script>
+        function switchColors() {
+            let element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
+    <h1><span style="color: #a89357">welcome to the</span> <span id="vanring">vanguard webring!</span></h1>
     <h2>what is this?</h2>
     <p>this is a webring for anyone in Vanguard High School! this webring is only open to people with personal websites.</p>
 

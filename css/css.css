@@ -2,3 +2,19 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Fira Sans';
 }
+
+#vanring {
+    color: #006
+}
+
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+    & #vanring {  
+        color: #274eff
+    }
+    & a {
+        color: #274eff
+    }
+}
+
